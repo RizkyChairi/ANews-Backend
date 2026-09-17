@@ -22,7 +22,7 @@ export const authenticate = (req: AuthRequest, res: Response, next: NextFunction
         if (!authHeader || !authHeader.startsWith('Bearer ')) {
             return res.status(401).json({
                 success: false,
-                message: 'Authentication required. Please provide a token.',
+                message: 'Authentication required. Please provide a valid token.',
             });
         }
 
