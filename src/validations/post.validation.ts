@@ -14,6 +14,7 @@ export const createPostSchema = z.object({
     .positive({
       message: "Category ID must be a positive integer",
     })
+    .min (3)
     .optional(),
 
   title: z
