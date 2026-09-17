@@ -41,5 +41,5 @@ ANews Backend dibangun menggunakan **Express.js**, **TypeScript**, dan **MySQL**
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/[username]/ANews-Backend.git
+git clone https://github.com/RizkyChairi/ANews-Backend.git
 cd ANews-Backend
