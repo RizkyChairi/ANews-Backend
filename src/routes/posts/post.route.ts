@@ -73,7 +73,7 @@ import { authenticate } from "../../middleware/auth.middleware";
 const router = Router();
 
 router.get('/', postsController.getAllPosts);
-router.get('/id', postsController.getPostById);
+router.get('/:id', postsController.getPostById);
 router.get('/category/:categoryId', postsController.getPostsByCategory);
 
 // login dlu euy
